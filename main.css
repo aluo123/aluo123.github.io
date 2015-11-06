@@ -11,28 +11,20 @@
 }
 
 .jumbotron {
-  background-image:url('http://goo.gl/VW8ZVE');
+  background-color: black;
   height: 500px;
-  background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Courier';
+  
+}
+
+.jumbotron h3,p{
+  color: green;
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
-}
-
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Courier', serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-  font-family: 'Courier', serif;
 }
 
 .learn-more {
