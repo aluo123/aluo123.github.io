@@ -14,12 +14,12 @@
   background-color: black;
   height: 500px;
   background-size: cover;
-  font-family: 'Courier';
+  font-family: 'Shift';
   
 }
 
-.jumbotron h3,p{
-  color: green;
+.jumbotron h1,p{
+  color: white;
 }
 
 .jumbotron .container {
@@ -38,7 +38,7 @@
 }
 
 .learn-more a {
-  color: #00b0ff;
+
 }
 
 .learn-more span{ 
