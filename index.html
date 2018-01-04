@@ -2,56 +2,14 @@
 <html>
 
 	<head>
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-		<link href="main.css" rel="stylesheet">
-		<link href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">		<link rel="stylesheet" href="main.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	</head>
 
 	<body>
-		<div class="nav">
-			<div class="container">	
-				<ul class="pull-left">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About me</a></li>
-				</ul>
-				<ul class="pull-right">
-					<li><a href="#">Blog</a></a></li>
-					<li><a href="#">Projects</a></li>
-				</ul>
-			</div>
+		<div id="app">
+			<p>{{ message }}</p>
 		</div>
 
-		<div class="jumbotron">
-			<div class="container">
-				<h1>ramble ramble</h1>
-				<p>random ramblings</p>
-			</div>
-		</div>
-	
-		<div class="learn-more">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<a href="#"><span></span></a>
-						<h3>blog</h3>
-						<p>written stuff goes here</p>
-					</div>
-					<div class="col-md-4">
-						<a href="#"><span></span></a>
-						<h3>projects</h3>
-						<p>practical stuff goes here</p>
-					</div>
-					<div class="col-md-4">
-						<a href="#"><span></span></a>
-						<h3>about the author</h3>
-						<p>learn about the awesome person behind this site</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<script src="app.js"></script>
 	</body>
 </html>
