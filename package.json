@@ -6,7 +6,8 @@
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
     "server": "moduleserve ./ --port 8000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "keywords": [
     "BuckleScript",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "bs-platform": "^7.0.1",
+    "gh-pages": "^2.1.1",
     "moduleserve": "^0.9.0"
   }
 }
